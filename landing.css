@@ -1,0 +1,31 @@
+body {
+  background-image: url(assets/images/landing\ gradient.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #393636;
+}
+
+footer {
+  background-color: rgb(244, 244, 244);
+  margin-top: auto;
+}
+
+#top-left-name {
+  font-size: 30px;
+  display: inline;
+}
+
+nav {
+  display: inline;
+}
+
+nav > a {
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #393636;
+}
