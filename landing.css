@@ -19,9 +19,9 @@ nav > a {
 /* main {
   border-style: dashed;
   border-color: blue;
-} */
+}
 
-/* main > section {
+main > section {
   border-style: dashed;
   border-color: green;
 }
@@ -34,6 +34,11 @@ nav > a {
 #landing-section > div > p {
   border-style: dashed;
   border-color: blue;
+}
+
+#landing-section > svg {
+  border-style: dashed;
+  border-color: yellow;
 } */
 
 footer {
@@ -48,7 +53,8 @@ img {
 /* General */
 
 a {
-  text-decoration: none;
+  text-decoration-color: transparent;
+  text-underline-offset: 5px;
   color: #393636;
 }
 
@@ -86,6 +92,7 @@ header {
 #header-full-name-div {
   margin-right: 40vw;
   font-weight: 600; /*idk if I want it slightly bolded*/
+  letter-spacing: 0.75px;
 }
 
 #header-nav {
@@ -95,18 +102,23 @@ header {
 
 #header-nav > a {
   margin-left: 50px;
+  font-size: 15px;
+  transition: text-decoration 0.4s ease;
+}
+
+#header-nav > a:hover {
+  text-decoration-color: #393636;
 }
 
 /* Main */
 
-main {
-}
-
 #landing-section {
+  /* ensures landing section is always the same height as the screen */
   height: 95vh;
   box-sizing: border-box;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -124,16 +136,17 @@ main {
 
 #landing-section > div > p:first-child {
   font-size: 20px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 #landing-section > div > p:nth-child(2) {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
-#landing-section > div > p:nth-child(3) {
-  color: yellow;
+#down-caret {
+  position: absolute;
+  bottom: 0%;
 }
 
 /* Footer */
