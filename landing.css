@@ -1,10 +1,5 @@
 /* testing borders*/
 
-body {
-  border-style: dashed;
-  border-color: red;
-}
-
 /* header {
   border-style: dashed;
   border-color: blue;
@@ -21,10 +16,25 @@ nav > a {
   border-color: yellow;
 } */
 
-main {
+/* main {
   border-style: dashed;
   border-color: blue;
+} */
+
+/* main > section {
+  border-style: dashed;
+  border-color: green;
 }
+
+#landing-section > div {
+  border-style: dashed;
+  border-color: yellow;
+}
+
+#landing-section > div > p {
+  border-style: dashed;
+  border-color: blue;
+} */
 
 footer {
   border-style: dashed;
@@ -68,6 +78,9 @@ header {
   justify-content: space-around;
   padding: 20px;
   font-size: 20px;
+
+  height: 5vh;
+  box-sizing: border-box;
 }
 
 #header-full-name-div {
@@ -87,6 +100,40 @@ header {
 /* Main */
 
 main {
+}
+
+#landing-section {
+  height: 95vh;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+#landing-section p {
+  margin: 0;
+  padding: 10px;
+}
+
+#landing-section svg {
+  padding: 10px;
+}
+
+#landing-section > div > p:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#landing-section > div > p:nth-child(2) {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#landing-section > div > p:nth-child(3) {
+  color: yellow;
 }
 
 /* Footer */
