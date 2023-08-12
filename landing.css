@@ -1,31 +1,97 @@
+/* testing borders*/
+
 body {
+  border-style: dashed;
+  border-color: red;
+}
+
+/* header {
+  border-style: dashed;
+  border-color: blue;
+}
+
+header > div,
+header > nav {
+  border-style: dashed;
+  border-color: green;
+}
+
+nav > a {
+  border-style: dashed;
+  border-color: yellow;
+} */
+
+main {
+  border-style: dashed;
+  border-color: blue;
+}
+
+footer {
+  border-style: dashed;
+  border-color: blue;
+}
+
+img {
+  display: block;
+}
+
+/* General */
+
+a {
+  text-decoration: none;
+  color: #393636;
+}
+
+/* Body */
+
+body {
+  /* background image */
   background-image: url(assets/images/landing\ gradient.png);
   background-repeat: no-repeat;
   background-size: contain;
+
+  /* Flex Container */
   display: flex;
   flex-direction: column;
+
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   color: #393636;
 }
 
+/* Header */
+
+header {
+  /* flex container */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#header-full-name-div {
+  margin-right: 40vw;
+  font-weight: 600; /*idk if I want it slightly bolded*/
+}
+
+#header-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-nav > a {
+  margin-left: 50px;
+}
+
+/* Main */
+
+main {
+}
+
+/* Footer */
+
 footer {
   background-color: rgb(244, 244, 244);
-  margin-top: auto;
-}
-
-#top-left-name {
-  font-size: 30px;
-  display: inline;
-}
-
-nav {
-  display: inline;
-}
-
-nav > a {
-  text-decoration: none;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: #393636;
+  /* margin-top: auto; */
 }
