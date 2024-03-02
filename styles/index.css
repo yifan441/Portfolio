@@ -1,0 +1,286 @@
+/* || FOR TESTING PURPOSES ONLY */
+
+/* header {
+  border-style: dashed;
+  border-color: blue;
+}
+
+header > div,
+header > nav {
+  border-style: dashed;
+  border-color: green;
+}
+
+nav > a {
+  border-style: dashed;
+  border-color: yellow;
+}
+
+main {
+  border-style: dashed;
+  border-color: blue;
+}
+
+main > section {
+  border-style: dashed;
+  border-color: green;
+}
+
+#landing-section > div {
+  border-style: dashed;
+  border-color: yellow;
+}
+
+#landing-section > div > p {
+  border-style: dashed;
+  border-color: blue;
+}
+
+#landing-section > svg {
+  border-style: dashed;
+  border-color: yellow;
+} */
+
+footer {
+  border-style: dashed;
+  border-color: blue;
+}
+
+img {
+  display: block;
+}
+
+/* || GENERAL STYLES */
+
+a {
+  text-decoration-color: transparent;
+  text-underline-offset: 5px;
+  color: black;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #393636;
+}
+
+/* || LANDING */
+
+body {
+  /* background image */
+  background-image: url(/assets/images/landing\ gradient.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  /* TODO: add media query for when screen size increases */
+
+  /* Flex Container */
+  display: flex;
+  flex-direction: column;
+}
+
+/* || HEADER */
+
+header {
+  /* flex container */
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 18px;
+
+  height: 5vh;
+  box-sizing: border-box;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header-full-name-div {
+  margin-right: 40vw;
+  font-weight: 600; /*idk if I want it slightly bolded*/
+  letter-spacing: 0.75px;
+}
+
+#header-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-nav > a {
+  margin-left: 50px;
+  font-size: 15px;
+  transition: text-decoration 0.4s ease;
+}
+
+#header-nav > a:hover {
+  text-decoration-color: black;
+}
+
+/* || LANDING SECTION */
+
+#landing-section {
+  /* ensures landing section is always the same height as the screen */
+  height: 95vh;
+  box-sizing: border-box;
+  margin-bottom: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  @media screen and (min-width: 1505px) {
+    margin-bottom: 450px;
+  }
+}
+
+#landing-section p {
+  margin: 0;
+  padding: 10px;
+}
+
+#landing-section svg {
+  padding: 10px;
+}
+
+#landing-section > div > p:first-child {
+  font-size: 20px;
+  /* font-weight: 600; */
+}
+
+#landing-section > div > p:nth-child(2) {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#down-caret {
+  position: absolute;
+  bottom: 0%;
+}
+
+#landing-section > div > p:nth-child(4) {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+#landing-section > div > p:nth-child(5) {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#landing-section > div > p > a {
+  font-size: 20px;
+  font-weight: 400;
+  text-underline-offset: 10px;
+  transition: color, text-decoration 0.4s ease;
+}
+
+#landing-section > div > p > a:hover {
+  text-decoration-color: rgba(0, 0, 0, 0.255);
+  color: rgba(0, 0, 0, 0.69);
+}
+
+/* || WORK SECTION */
+
+.project {
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.test {
+  position: absolute;
+  top: -240px; /* Adjust position as needed */
+  left: -250px; /* Adjust position as needed */
+  z-index: -1; /* Place the second image behind the container */
+  width: 900px; /* Adjust width as needed */
+  height: 900px; /* Adjust height as needed */
+}
+
+.project__image {
+  position: relative;
+  overflow: visible;
+}
+
+.project__description {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project__description > p:nth-of-type(1) {
+  margin: 0 0 15px 0;
+
+  color: #a5a5a5;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+}
+
+.project__description > h1 {
+  margin: 0 0 25px 0;
+
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.attributes {
+  margin-bottom: 30px;
+}
+
+.attribute-tag {
+  width: auto;
+  height: 45px;
+  display: inline;
+  padding: 5px 15px;
+  margin-right: 25px;
+
+  border-radius: 4px;
+
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.attribute-tag.purple {
+  color: #244ba2;
+  background: #d7dff3;
+}
+
+.attribute-tag.pink {
+  color: #c04b6e;
+  background: #efdde2;
+}
+
+.project__description > p:nth-of-type(2) {
+  margin: 0 0 30px 0;
+  font-size: 20px;
+}
+
+.project__description > a {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.project__description > a:hover {
+  text-decoration-color: rgba(19, 52, 121, 0.5);
+  color: rgba(19, 52, 121, 0.69);
+  transition: color, text-decoration 0.4s ease;
+}
+
+/* || FOOTER */
+
+footer {
+  background-color: rgb(244, 244, 244);
+  /* margin-top: auto; */
+}
