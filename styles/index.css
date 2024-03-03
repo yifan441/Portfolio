@@ -68,7 +68,7 @@ body {
 
 body {
   /* background image */
-  background-image: url(/assets/images/landing\ gradient.png);
+  background-image: url(/assets/images/landing-gradient.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
 
@@ -122,7 +122,7 @@ header {
   /* ensures landing section is always the same height as the screen */
   height: 95vh;
   box-sizing: border-box;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 
   display: flex;
   flex-direction: column;
@@ -184,6 +184,10 @@ header {
 
 /* || WORK SECTION */
 
+#work-section {
+  padding-top: 50px;
+}
+
 .project {
   width: 1250px;
   display: flex;
@@ -195,13 +199,18 @@ header {
   position: relative;
 }
 
-.test {
+.mini-gradient {
   position: absolute;
   top: -240px; /* Adjust position as needed */
   left: -250px; /* Adjust position as needed */
   z-index: -1; /* Place the second image behind the container */
   width: 900px; /* Adjust width as needed */
   height: 900px; /* Adjust height as needed */
+}
+
+.right .mini-gradient {
+  left: -200px; /* Adjust position as needed */
+  width: 750px; /* Adjust width as needed */
 }
 
 .project__image {
@@ -214,6 +223,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.right .project__description {
+  padding-left: 50px;
 }
 
 .project__description > p:nth-of-type(1) {
@@ -267,12 +280,12 @@ header {
   font-size: 20px;
 }
 
-.project__description > a {
+.view-project-btn {
   font-size: 22px;
   font-weight: 600;
 }
 
-.project__description > a:hover {
+.view-project-btn:hover {
   text-decoration-color: rgba(19, 52, 121, 0.5);
   color: rgba(19, 52, 121, 0.69);
   transition: color, text-decoration 0.4s ease;

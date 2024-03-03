@@ -1,0 +1,26 @@
+|| Landing Page
+
+TODO: add bottom karat smooth scroll 
+TODO: back to top icon, when you scroll down 
+
+-----------------------
+
+|| About Page
+
+TODO: smooth scroll when you navigate from about.html-->work
+
+-----------------------
+
+|| Footer
+
+TODO: design it
+TODO: code it
+
+-----------------------
+
+|| Other Misc.
+
+TODO: create UI mockups using photoshop
+TODO: rewrite case study for LineUp
+TODO: write case study for ARDC 
+TODO: write case study for ProjectFlow
