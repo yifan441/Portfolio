@@ -13,8 +13,8 @@ TODO: smooth scroll when you navigate from about.html-->work
 
 || Footer
 
-TODO: design it
-TODO: code it
+DONE: design it
+DONE: code it
 
 -----------------------
 
@@ -27,6 +27,7 @@ TODO: create UI mockups using photoshop
 TODO: rewrite case study for LineUp
 TODO: write case study for ARDC 
 TODO: write case study for ProjectFlow
+TODO: upload resume to google drive and link it to footer
 
 -----------------------
 

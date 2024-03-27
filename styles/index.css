@@ -41,10 +41,10 @@ main > section {
   border-color: yellow;
 } */
 
-footer {
+/* footer {
   border-style: dashed;
   border-color: blue;
-}
+} */
 
 /* || LANDING IMAGE */
 body {
@@ -198,10 +198,11 @@ body {
 .view-project-btn {
   font-size: 22px;
   font-weight: 600;
+
+  transition: color, text-decoration 0.4s ease;
 }
 
 .view-project-btn:hover {
   text-decoration-color: rgba(19, 52, 121, 0.5);
   color: rgba(19, 52, 121, 0.69);
-  transition: color, text-decoration 0.4s ease;
 }

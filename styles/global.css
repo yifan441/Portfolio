@@ -90,8 +90,53 @@ header {
 /* || FOOTER */
 
 footer {
-  background-color: rgb(244, 244, 244);
-  /* margin-top: auto; */
+  background-color: rgba(215, 223, 243, 0.6);
+  padding: 30px 10% 30px 10%;
+
+  @media screen and (min-width: 1505px) {
+    padding: 0 18% 0 18%;
+  }
+}
+
+footer > p {
+  margin-bottom: 30px;
+
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+
+  text-decoration: underline;
+  text-decoration-color: #92a9e4;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+
+footer .info-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .info-blocks > div > p:nth-child(1) {
+  color: #737373;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+
+footer .info-blocks > div > p:nth-child(2) {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+
+footer a {
+  transition: color, text-decoration 0.4s ease;
+}
+
+footer a:hover {
+  text-decoration-color: #92a9e4;
+  color: #6881c1;
 }
 
 /* || MINI GRADIENT */

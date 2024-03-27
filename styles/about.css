@@ -11,40 +11,16 @@ body {
   background-image: url(/assets/images/about-gradient.png);
 }
 
-/* || LANDING QUOTE */
-
-.quote {
-  position: relative;
-  width: 400px;
-}
-
-.quote > p {
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.quote > svg:nth-of-type(1) {
-  position: absolute;
-  left: -40px;
-  top: -10px;
-}
-
-.quote > svg:nth-of-type(2) {
-  position: absolute;
-  right: -40px;
-  bottom: -5px;
-}
-
 /* || ABOUT SECTION */
 
-#about-section {
+.about-section {
   width: 1250px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  margin: 0 auto 100px auto;
+  margin: 150px auto 400px auto;
 }
 
 .about__image {
@@ -53,6 +29,10 @@ body {
   position: relative;
   overflow: visible;
   z-index: 1;
+}
+
+.about__image > img {
+  border-radius: 50%;
 }
 
 .about-section .mini-gradient {
@@ -64,6 +44,10 @@ body {
 
 .about__description {
   width: 650px;
+  padding: 5px 40px 40px 50px;
+
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .about__description > h1 {
@@ -73,7 +57,7 @@ body {
 
 .about__description > p {
   font-size: 15px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 /* || SKILLS SECTION */
