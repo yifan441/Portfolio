@@ -21,6 +21,15 @@ TODO: code it
 || Other Misc.
 
 TODO: create UI mockups using photoshop
+  https://www.freepik.com/free-photos-vectors/ui-mockup
+  https://www.freepik.com/free-psd/3d-interface-website-presentation-mockup-isolated_23126615.htm#query=ui%20mockup&position=44&from_view=keyword&track=ais&uuid=fd71afab-5fa4-4c84-a58a-c405a6d1f96e
+  https://www.freepik.com/free-psd/mobile-phone-screen-mock-up_1128473.htm#query=ui%20mockup&position=9&from_view=keyword&track=ais&uuid=fd71afab-5fa4-4c84-a58a-c405a6d1f96e
 TODO: rewrite case study for LineUp
 TODO: write case study for ARDC 
 TODO: write case study for ProjectFlow
+
+-----------------------
+
+|| Accessibility + Little Details
+
+TODO: alt text for every image/svg
