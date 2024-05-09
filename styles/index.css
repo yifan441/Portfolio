@@ -105,20 +105,49 @@ body {
   padding-top: 50px;
 }
 
+.word-divider-div {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto 0 auto;
+  gap: 10px;
+}
+
+.word-divider-div > hr {
+  flex-grow: 1;
+  border: 0;
+  border-top: 3px solid #dadada;
+}
+
+.word-divider-div span {
+  color: #a5a5a5;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
 .project {
-  width: 1250px;
+  width: 85%;
+  max-width: 1250px;
   display: flex;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
 
-  margin-bottom: 200px;
+  margin: 0 auto 200px auto;
   position: relative;
+}
+
+.word-divider-div + .project {
+  margin: 200px auto 200px auto;
 }
 
 .project__image {
   position: relative;
   overflow: visible;
+}
+
+.project__image > img {
+  border-radius: 10px;
 }
 
 .project .mini-gradient {
@@ -134,14 +163,15 @@ body {
 }
 
 .project__description {
-  width: 550px;
+  width: 50%;
+  max-width: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .right .project__description {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 .project__description > p:nth-of-type(1) {
@@ -166,10 +196,10 @@ body {
 
 .attribute-tag {
   width: auto;
-  height: 45px;
-  display: inline;
+  height: auto;
+  display: inline-block;
   padding: 5px 15px;
-  margin-right: 25px;
+  margin: auto 10px 10px auto;
 
   border-radius: 4px;
 

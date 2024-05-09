@@ -34,3 +34,4 @@ TODO: upload resume to google drive and link it to footer
 || Accessibility + Little Details
 
 TODO: alt text for every image/svg
+TODO: change color for on hover for every a tag

@@ -56,14 +56,19 @@ header {
   /* flex container */
   display: flex;
   justify-content: space-around;
-  padding: 20px;
-  font-size: 18px;
+  align-items: center;
+  box-sizing: border-box;
 
   height: 5vh;
-  box-sizing: border-box;
-  width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 90%;
+  max-width: 1400px;
+  padding: 25px 20px;
+  margin: 5px auto 0 auto;
+
+  font-size: 18px;
+
+  /* background: rgba(255, 255, 255, 0.4); */
+  border-radius: 10px;
 }
 
 #header-full-name-div {
@@ -99,8 +104,6 @@ footer {
 }
 
 footer > p {
-  margin-bottom: 30px;
-
   color: black;
   font-size: 20px;
   font-weight: 600;
@@ -111,9 +114,14 @@ footer > p {
   text-underline-offset: 10px;
 }
 
+footer > p {
+  margin-top: 30px;
+}
+
 footer .info-blocks {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 footer .info-blocks > div > p:nth-child(1) {
