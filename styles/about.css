@@ -6,6 +6,10 @@ h1 {
   letter-spacing: 1.25px;
 }
 
+span {
+  background-color: rgba(204, 189, 248, 0.7);
+}
+
 /* || LANDING IMAGE */
 body {
   background-image: url(/assets/images/about-gradient.png);
@@ -19,25 +23,24 @@ body {
 /* || ABOUT SECTION */
 
 .about-section {
-  width: 1250px;
+  width: 85%;
+  max-width: 1250px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  margin: 150px auto 400px auto;
+  margin: 100px auto 350px auto;
 }
 
 .about__image {
-  width: 400px;
-  height: 400px;
   position: relative;
   overflow: visible;
   z-index: 1;
 }
 
 .about__image > img {
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 .about-section .mini-gradient {
@@ -56,13 +59,13 @@ body {
 }
 
 .about__description > h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 .about__description > p {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* || SKILLS SECTION */

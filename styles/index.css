@@ -75,6 +75,7 @@ body {
 #down-caret {
   position: absolute;
   bottom: 0%;
+  cursor: pointer;
 }
 
 #landing-section > div > p:nth-child(4) {
@@ -188,6 +189,10 @@ body {
 
   font-size: 30px;
   font-weight: 700;
+}
+
+.project__description > p:nth-of-type(2) {
+  line-height: 1.7;
 }
 
 .attributes {
