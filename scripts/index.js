@@ -1,3 +1,4 @@
+// Scrolling effect
 document.addEventListener('DOMContentLoaded', () => {
   const scrollLinks = document.querySelectorAll('.js-scroll-link');
 
@@ -15,3 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// Heart icon "liking" effect
+let isFilled = false;
+const heart = document.querySelector('.heart-icon');
+heart.addEventListener('click', handleHeart);
+
+function handleHeart() {
+  if (isFilled) {
+    heart.src = 'assets/icons/heart-empty.svg';
+  } else {
+    heart.src = 'assets/icons/heart-filled.svg';
+  }
+  isFilled = !isFilled;
+}

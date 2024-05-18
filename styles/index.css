@@ -58,10 +58,14 @@ body {
   padding: 10px;
 }
 
-#landing-section .heart-icon {
+.heart-icon {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+}
+
+.heart-icon:hover {
+  cursor: pointer;
 }
 
 #landing-section > div > p:first-child {
