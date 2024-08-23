@@ -25,6 +25,7 @@ body {
 /* || ABOUT SECTION */
 
 .about-section {
+  height: 90vh;
   width: 85%;
   max-width: 1250px;
 
@@ -32,7 +33,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  margin: 100px auto 350px auto;
+  margin: 0 auto 0 auto;
 }
 
 .about__image {

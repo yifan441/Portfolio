@@ -30,7 +30,7 @@ body {
   flex-direction: column;
 }
 
-/* || LANDING SECTION */
+/* || LANDING SECTION - Work*/
 
 #landing-section {
   /* ensures landing section is always the same height as the screen */
@@ -50,6 +50,7 @@ body {
   }
 }
 
+
 /* || HEADER */
 
 header {
@@ -61,7 +62,7 @@ header {
 
   height: 5vh;
   width: 90%;
-  max-width: 1400px;
+  max-width: 1480px;
   padding: 25px 20px;
   margin: 5px auto 0 auto;
 
